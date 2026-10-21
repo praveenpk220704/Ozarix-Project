@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OZARIX TECHNOLOGY | INNOVATE • INTEGRATE • ELEVATE</title>
+    <meta name="description" content="OZARIX TECHNOLOGY builds enterprise software, AI products, cloud platforms, and intelligent business applications." />
+    <meta name="keywords" content="Ozarix, Software Development, AI, Cloud Computing, Enterprise Solutions, Praveen Kumar" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/digital-innovation-bg.jpg" fetchpriority="high" />
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased selection:bg-blue-600 selection:text-white transition-colors duration-150">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
